@@ -1,0 +1,605 @@
+.body {
+	height: 500px;
+	width: 500px;
+
+}
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: rgb(0, 0, 99);
+}
+.container_cube {
+	width: 100%;
+	height: 100%;
+	transform: rotateX(50deg) rotateY(-1deg)
+}
+.cube {
+	position: absolute;
+	width: 33.3333%;
+	height: 33.3333%
+}
+.leftFace, .rightFace {
+	padding: 5%;
+	width: 35%
+}
+.topFace {
+	width: 35%;
+	height: 35%
+}
+.topFace div {
+	padding: 13.5%;
+	width: 100%;
+	height: 100%
+}
+.leftFace, .left_Face, .rightFace, .right_Face, .topFace, .top_Face {
+	position: absolute
+}
+.leftFace, .left_Face {
+	-webkit-transform: skewY(30deg);
+	-moz-transform: skewY(30deg);
+	background-color: #ccc
+}
+.rightFace, .right_Face {
+	-webkit-transform: skewY(-30deg);
+	-moz-transform: skewY(-30deg);
+	background-color: #ddd;
+	left: 45%
+}
+.topFace div, .top_Face div {
+	-webkit-transform: skewY(-30deg) scaleY(1.16);
+	-moz-transform: skewY(-30deg) scaleY(1.16);
+	background-color: #eee
+}
+.topFace {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	top: -36.5%;
+	left: 29.5%
+}
+.top_Face {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	top: -35%;
+	left: 22%;
+	z-index: 2;
+	width: 35%;
+	height: 11.6%
+}
+.top_Face div {
+	width: 100%
+}
+.cube1-1 .leftFace, .cube1-1 .rightFace {
+	height: 50%
+}
+.cube1-1 {
+	bottom: 55%;
+	right: 28.5%
+}
+.cube2-2 .leftFace, .cube2-2 .rightFace {
+	height: 60%
+}
+.cube2-2 {
+	bottom: 45%;
+	right: 13.5%
+}
+.cube2-1 .leftFace, .cube2-1 .rightFace {
+	height: 50%
+}
+.cube2-1 {
+	bottom: 40%;
+	right: 43.7%
+}
+.cube3-2 .leftFace, .cube3-2 .rightFace {
+	height: 78%
+}
+.cube3-2 {
+	bottom: 44%;
+	right: 28.5%;
+	z-index: 3
+}
+.cube3-3 .leftFace, .cube3-3 .rightFace {
+	height: 70%
+}
+.cube3-3 {
+	bottom: 38%;
+	right: -1.5%
+}
+.cube3-1 .leftFace, .cube3-1 .rightFace {
+	height: 35.5%
+}
+.cube3-1 {
+	bottom: 26.1%;
+	right: 58.5%;
+	z-index: 3
+}
+.cube4-1 .leftFace, .cube4-1 .rightFace {
+	height: 3%
+}
+.cube4-1 {
+	bottom: 6.5%;
+	right: 43.5%;
+	z-index: 3
+}
+.cube5-1 .leftFace, .cube5-1 .rightFace {
+	height: 11.5%
+}
+.cube5-1 {
+	bottom: 1%;
+	right: 28.5%;
+	z-index: 4
+}
+.cube1-1, .cube2-1, .cube2-2, .cube3-1, .cube3-2, .cube3-3, .cube4-1, .cube4-2, .cube5-1 {
+	width: 33.3333%
+}
+.cube4-2-1 .rightFace, .cube4-2-2 .rightFace, .cube4-2-3 .rightFace, .cube4-2-4 .rightFace, .cube4-2-5 .rightFace, .cube4-2-6 .rightFace {
+	height: 11%;
+	width: 3%;
+	top: -1.5%
+}
+.cube4-2-1 .topFace, .cube4-2-2 .topFace, .cube4-2-3 .topFace, .cube4-2-4 .topFace, .cube4-2-5 .topFace, .cube4-2-6 .topFace {
+	height: 3%;
+	left: 13.7%;
+	top: -23%
+}
+.cube4-2-1 .leftFace, .cube4-2-2 .leftFace, .cube4-2-3 .leftFace, .cube4-2-4 .leftFace, .cube4-2-5 .leftFace, .cube4-2-6 .leftFace {
+	height: 11%;
+	left: 0;
+	top: -11%
+}
+.cube4-2-1 {
+	bottom: 12%;
+	right: 2.8%;
+	z-index: 3
+}
+.cube4-2-2 {
+	bottom: 9%;
+	right: 8.17%;
+	z-index: 3
+}
+.cube4-2-3 {
+	bottom: 6%;
+	right: 13.5%;
+	z-index: 3
+}
+.cube4-2-4 {
+	bottom: 21%;
+	right: 2.8%;
+	z-index: 3
+}
+.cube4-2-5 {
+	bottom: 18%;
+	right: 8.17%;
+	z-index: 3
+}
+.cube4-2-6 {
+	bottom: 30%;
+	right: 2.8%;
+	z-index: 3
+}
+.cube1-1 .rightFace {
+	background: -webkit-linear-gradient(135deg, #425471, #1b202f);
+	background: -moz-linear-gradient(135deg, #425471, #1b202f);
+	background: linear-gradient(135deg, #425471, #1b202f);
+}
+.cube1-1 .leftFace {
+	background: -webkit-linear-gradient(45deg,#1b202f, #425471);
+	background: -moz-linear-gradient(45deg,#1b202f, #425471);
+	background: linear-gradient(45deg,#1b202f, #425471);
+}
+.cube1-1 .topFace div {
+	background: #3e4e6f;
+}
+.cube2-1 .rightFace {
+	background: -webkit-linear-gradient(135deg, #425471, #1b202f);
+	background: -moz-linear-gradient(135deg, #425471, #1b202f);
+	background: linear-gradient(135deg, #425471, #1b202f);
+}
+.cube2-1 .leftFace {
+	background: -webkit-linear-gradient(45deg,#1b202f, #425471);
+	background: -moz-linear-gradient(45deg,#1b202f, #425471);
+	background: linear-gradient(45deg,#1b202f, #425471);
+}
+.cube2-1 .topFace div {
+	background: #202538;
+	
+}
+.cube2-1 .topFace  {
+	border: 0px solid blue;
+}
+.cube2-2 .rightFace {
+	background: -webkit-linear-gradient(135deg, #425471, #1b202f);
+	background: -moz-linear-gradient(135deg, #425471, #1b202f);
+	background: linear-gradient(135deg, #425471, #1b202f);
+	border-left: 1px solid #fff5
+}
+.cube2-2 .leftFace {
+	background: -webkit-linear-gradient(45deg,#1b202f, #425471);
+	background: -moz-linear-gradient(45deg,#1b202f, #425471);
+	background: linear-gradient(45deg,#1b202f, #425471);
+}
+.cube2-2 .topFace div {
+	background: -webkit-linear-gradient(135deg, #1b202f, #425471);
+	background: -moz-linear-gradient(135deg, #1b202f, #425471);
+	background: linear-gradient(135deg, #1b202f, #425471);
+	border-bottom: 1px solid #fff5;
+	border-right: 1px solid #fff5
+}
+.cube3-1 .rightFace {
+	background: -webkit-linear-gradient(135deg, #425471, #1b202f);
+	background: -moz-linear-gradient(135deg, #425471, #1b202f);
+	background: linear-gradient(135deg, #425471, #1b202f);
+}
+.cube3-1 .leftFace {
+	background: -webkit-linear-gradient(0deg,#1a1e27 0%, #3a4862 );
+	background: -moz-linear-gradient(0deg,#1a1e27 0%, #3a4862 );
+	background: linear-gradient(0deg,#1a1e27 0%, #3a4862 );
+}
+.cube3-1 .topFace div {
+	background: #171a29;
+}
+.cube3-2 .rightFace {
+	background: #21293e;
+	border-left: 1px solid #fff5
+}
+.cube3-2 .leftFace {
+	background-color: #1c202b;
+	box-shadow: inset 0px 30px 30px #4c5c7d;
+	border-left: 2px solid #3a4559;
+}
+.cube3-2 .topFace div {
+	background:#2e354f;
+	border-bottom: 1px solid #fff5;
+	border-right: 1px double #fff5;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	box-shadow: inset -5px -5px 20px rgba(0,0,0,0.9);
+}
+.cube3-3 .rightFace {
+	background: -webkit-linear-gradient(135deg, #425471, #1b202f 60%);
+	background: -moz-linear-gradient(135deg, #425471, #1b202f 60%);
+	background: linear-gradient(135deg, #425471, #1b202f 60%);
+
+}
+.cube3-3 .rightFace img {
+	display: block;
+	width: 145%;
+	height: 120%;
+	position: absolute;
+	top: -7%;
+	left: -20%;
+}
+.cube3-3 .topFace img {
+	display: block;
+	width: 145%;
+	height: 120%;
+	position: absolute;
+	top: -7%;
+	left: -20%;
+}
+.cube3-3 .leftFace img {
+	display: block;
+	width: 145%;
+	height: 120%;
+	position: absolute;
+	top: -7%;
+	left: -21%;
+}
+.cube3-3 .leftFace {
+	background: -webkit-linear-gradient(45deg,#1b202f, #425471);
+	background: -moz-linear-gradient(45deg,#1b202f, #425471);
+	background: linear-gradient(45deg,#1b202f, #425471);
+	
+}
+.cube3-3 .topFace div {
+	background: -webkit-linear-gradient(135deg, #1b202f, #425471);
+	background: -moz-linear-gradient(135deg, #1b202f, #425471);
+	background: linear-gradient(135deg, #1b202f, #425471);
+	
+}
+.cube4-1 .rightFace {
+
+	background: -webkit-linear-gradient(0deg, #425471, #1b202f);
+	background: -moz-linear-gradient(0deg, #425471, #1b202f);
+	background: linear-gradient(0deg, #425471, #1b202f);
+	border-left: 1px solid #fff6
+}
+.cube4-1 .leftFace {
+	background: #1b202f;
+	border-right: 1px solid #fff6
+}
+.cube4-1 .topFace div {
+	background:  url('Frame 1.png') 0 0/ 100% 100% no-repeat;
+}
+.cube4-2-1 .rightFace {
+	background: -webkit-linear-gradient(315deg, rgb(25, 28, 43) 62%, #222a3f);
+background: -moz-linear-gradient(315deg, rgb(25, 28, 43) 62%, #222a3f);
+background: linear-gradient(315deg, rgb(25, 28, 43) 62%, #222a3f);
+}
+.cube4-2-1 .leftFace {
+	background: -webkit-linear-gradient(135deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: -moz-linear-gradient(135deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: linear-gradient(135deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+}
+.cube4-2-1 .topFace div {
+	background: #181e34;
+}
+.cube4-2-2 .rightFace {
+	background: -webkit-linear-gradient(-45deg, #212330 62%, #363f5e);
+background: -moz-linear-gradient(-45deg, #212330 62%, #363f5e);
+background: linear-gradient(-45deg, #212330 62%, #363f5e);
+}
+.cube4-2-2 .leftFace {
+background: -webkit-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: -moz-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+}
+.cube4-2-2 .topFace div {
+	background: #181e34;
+}
+.cube4-2-3 .rightFace {
+	background: -webkit-linear-gradient(315deg, rgb(30, 36, 52) 40%, rgb(58, 71, 116));
+background: -moz-linear-gradient(315deg, rgb(30, 36, 52) 40%, rgb(58, 71, 116));
+background: linear-gradient(315deg, rgb(30, 36, 52) 40%, rgb(58, 71, 116));
+}
+.cube4-2-3 .leftFace {
+	background: -webkit-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: -moz-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+}
+.cube4-2-3 .topFace div {
+	background: #181e34;
+}
+.cube4-2-4 .rightFace {
+	background: #21273f;
+}
+.cube4-2-4 .leftFace {
+	background: -webkit-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: -moz-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+}
+.cube4-2-4 .topFace div {
+	background: #181e34;
+}
+.cube4-2-5 .rightFace {
+	background: -webkit-linear-gradient(315deg, rgb(34, 39, 58) 44%, rgb(48, 61, 103));
+background: -moz-linear-gradient(315deg, rgb(34, 39, 58) 44%, rgb(48, 61, 103));
+background: linear-gradient(315deg, rgb(34, 39, 58) 44%, rgb(48, 61, 103));
+}
+.cube4-2-5 .leftFace {
+	background: -webkit-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: -moz-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+}
+.cube4-2-5 .topFace div {
+	background: #181e34;
+}
+.cube4-2-6 .rightFace {
+	background: -webkit-linear-gradient(315deg, rgb(31, 39, 60) 44%, rgb(47, 60, 102));
+background: -moz-linear-gradient(315deg, rgb(31, 39, 60) 44%, rgb(47, 60, 102));
+background: linear-gradient(315deg, rgb(31, 39, 60) 44%, rgb(47, 60, 102));
+}
+.cube4-2-6 .leftFace {
+	background: -webkit-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: -moz-linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+background: linear-gradient(45deg, rgb(31, 35, 46) 62%, rgb(54, 69, 100));
+}
+.cube4-2-6 .topFace div {
+	background: #181e34;
+}
+.cube5-1 .rightFace {
+	background: -webkit-linear-gradient(180deg, #425471 1%,  #1b202f);
+	background: -moz-linear-gradient(180deg, #425471 1%,  #1b202f);
+	background: linear-gradient(180deg, #425471 1%,  #1b202f);
+}
+.cube5-1 .leftFace {
+	background: #1b202f;
+}
+.cube5-1 .topFace div {
+	background: #222a4e;
+	box-shadow: inset -10px -10px 10px #465375;
+	border-bottom: 1px solid #fff6;
+	border-right: 1px solid #fff6
+}
+.cube2-1 .rightFace {
+	background: -webkit-linear-gradient(135deg, #425471, #1b202f);
+	background: -moz-linear-gradient(135deg, #425471, #1b202f);
+	background: linear-gradient(135deg, #425471, #1b202f);
+	border-left: 1px solid #fff6
+}
+.cube2-1 .leftFace {
+	background: -webkit-linear-gradient(45deg,#1b202f, #425471);
+	background: -moz-linear-gradient(45deg,#1b202f, #425471);
+	background: linear-gradient(45deg,#1b202f, #425471);
+	border-right: 1px solid #fff6
+}
+.cube2-1 .topFace div {
+	background: -webkit-linear-gradient(135deg, #1b202f, #425471);
+	background: -moz-linear-gradient(135deg, #1b202f, #425471);
+	background: linear-gradient(135deg, #1b202f, #425471);
+	border-bottom: 1px solid #fff6;
+	border-right: 1px solid #fff6
+}
+@keyframes cube {
+	from {
+		bottom: -100%;
+		opacity: 0
+	}
+	50% {
+		opacity: 0
+	}
+	70% {
+		opacity: 1
+	}
+}
+.cube {
+	animation: cube 2s ease-in-out
+}
+.container_img1 {
+   position: absolute;
+   top: 17%;
+   left: -15%;
+   width: 80%
+}
+
+.container_img2 {
+   position: absolute;
+   top: 0;
+   left: 27%;
+   width: 50%
+}
+
+.container_img3 {
+   position: absolute;
+   top: -10%;
+   left: -13%;
+   width: 100%
+}
+
+.container_img4 {
+   position: absolute;
+   top: -5%;
+   left: 35%;
+   width: 100%
+}
+
+.container_img5 {
+   display: block;
+   position: absolute;
+   top: 13%;
+   left: -5%;
+   width: 100%;
+   z-index: 5
+}
+.container_img6 {
+	position: absolute;
+	top: 30%;
+	left: 38%;
+	width: 30%;
+	height: 30%;
+	z-index: 5;
+	border-radius: 50%;
+	overflow: hidden;
+}
+@keyframes img {
+	0 {
+		opacity: 0
+	}
+	70% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+.container_img {
+	opacity: 0;
+	animation: img 3s linear forwards
+}
+@keyframes up-down {
+	0%, 100% {
+		transform: translate(0, 10%)
+	}
+	50% {
+		transform: translate(0, -1%)
+	}
+}
+.container_img2, .container_img3, .container_img4 {
+	animation: up-down 3s ease-in-out infinite
+}
+
+
+.globe-container,
+.globe {
+	width: 60%;
+	height: 60%;  
+}
+.globe-container {
+	position: absolute;  
+	bottom: -37%;
+	left: 33%;
+	display: inline-block;
+	transform: scale(1.1);
+}
+.globe {
+	position: relative;  
+	display: block;
+	margin: 0;
+	padding: 0;
+	top: 0; 
+	left: 0;
+}
+.globe-worldmap,
+.globe-worldmap-front,
+.globe-worldmap-back,
+.globe-sphere,
+.globe-outer-shadow,
+.globe-inner-shadow {
+	position: absolute; 
+	display: block; 
+	margin: 0; 
+}
+.globe-sphere,
+.globe-outer-shadow,
+.globe-inner-shadow {
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 100%;
+	background-position: 0 0; 
+	background-repeat: no-repeat;
+}
+.globe-worldmap {
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 100%; 
+	overflow: hidden;
+	border-radius: 50%;
+	background: #2934e8;
+}
+.globe-worldmap-front,
+.globe-worldmap-back {
+	left: 0; 
+	top: 0; 
+	width: 500%; 
+	height: 100%; 
+	overflow: visible;
+	background: url('worldmap.svg') 0 0/100% auto;
+}
+.globe-outer-shadow { 
+	left: 0; 
+	top: 186px; 
+	width: 200px; 
+	height: 30px;
+	background-image: url(outer_shadow.svg);
+}
+.globe-inner-shadow { 
+	background-image: url(inner_shadow.svg);
+}
+
+.globe-worldmap-front { 
+	background-position: 0px 0px;
+	animation: textureSpinreverse 8s linear infinite;
+}
+.globe-worldmap-back { 
+	background-position: 0px -220px;
+    animation: textureSpin 8s linear infinite;
+}
+
+@keyframes textureSpin {
+	from {
+		transform: translateX(0);
+	}
+	to {
+        transform: translateX(-47.5%);
+	}
+}
+@keyframes textureSpinreverse {
+	from {
+        transform: translateX(-47.5%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
